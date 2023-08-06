@@ -26,10 +26,10 @@ $ sudo apt-get --force-yes -y install git python3 python3-pip
 
 ## Getting and Running Admin-Finder
 ```sh
-$ git clone https://github.com/WeebSec/admin-san.git
-$ cd admin-san
+$ git clone https://github.com/Mr-Cyb3rgh0st/Admin-Finder.git
+$ cd Admin-Finder
 $ sudo pip3 install -r requirements.txt
-$ python3 admin-san.py
+$ python3 
 ```
 
 ### ScreenShot
