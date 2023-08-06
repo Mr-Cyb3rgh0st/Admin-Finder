@@ -29,7 +29,7 @@ $ sudo apt-get --force-yes -y install git python3 python3-pip
 $ git clone https://github.com/Mr-Cyb3rgh0st/Admin-Finder.git
 $ cd Admin-Finder
 $ sudo pip3 install -r requirements.txt
-$ python3 
+$ python3 admin-finder.py
 ```
 
 ### ScreenShot
