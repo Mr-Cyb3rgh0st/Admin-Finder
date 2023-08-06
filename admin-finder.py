@@ -42,7 +42,7 @@ async def fetch(url, session):
     async with session.get(url) as response: 
         status = response.status #gets status codes to see if page is up
         if status == 200:
-            print("\33[97;1mpew (>O_O)>  \33[1;0m{}\33[97;1m  <(O_O<) pew {}".format(response.url, status))
+            print("\33[97;1msuccess (>O_O)>  \33[1;0m{}\33[97;1m  <(O_O<) success {}".format(response.url, status))
             yay.append(response.url)
         elif status == 404:
             print("\33[91;1mx_x \33[94;1m{}\33[91;1m x_x {}".format(response.url, status))
